@@ -3,7 +3,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import API from './fetch-api';
 
-refs = {
+const refs = {
   galleryList: document.querySelector('.gallery'),
   searchForm: document.querySelector('#search-form'),
   searchInput: document.querySelector('#search-input'),
